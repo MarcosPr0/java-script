@@ -1,0 +1,29 @@
+body {
+    background: rgb(60, 151, 255);
+    font: normal 15pt Arial;
+}
+
+header {
+     color: white;
+     text-align: center;    /*Alinhamento de texto*/
+}
+
+section {
+     background: white;   /*Fundo*/
+     border-radius: 10px;   /*Raio da borda*/
+     padding: 15px;         /*Preenchimento*/
+     width: 500px;          /*Largura*/
+     margin: auto;          /*Centralizar*/
+     box-shadow: 4px 4px 2px rgba(48, 48, 48, 0.795);     /*Sombra da caixa*/
+}
+
+select#flista {             /*Caixa de lista no navegador*/
+     width: 150px;
+}
+
+footer {
+     color: white;
+     text-align: center;
+     font-style: italic;    /*Colocar em itálico*/
+}
+

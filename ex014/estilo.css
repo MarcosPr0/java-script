@@ -1,0 +1,33 @@
+body {
+    background: rgb(60, 151, 255);
+    font: normal 15pt Arial;
+}
+
+header {
+     color: white;
+     text-align: center;    /*Alinhamento de texto*/
+}
+
+section {
+     background: white;   /*Fundo*/
+     border-radius: 10px;   /*Raio da borda*/
+     padding: 15px;         /*Preenchimento*/
+     width: 500px;          /*Largura*/
+     margin: auto;          /*Centralizar*/
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.795);     /*Sombra da caixa*/
+     
+}
+
+div {
+     text-align: center;    /*Alinhamento de texto*/
+     padding: 7px;          /*Preenchimento*/
+      
+}
+
+footer {
+     color: white; 
+     text-align: center;
+     font-style: italic;    /*Colocar em itálico*/
+}
+
+

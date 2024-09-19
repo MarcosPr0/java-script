@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    
+    <link rel="stylesheet" href="estilo.css">   <!-- macete para criar um arquivo css separado -->
+    
+</head>
+<body>
+    <header>
+         <h1>Tabuada</h1>
+    </header>
+
+    <section>
+        <form action="script.js" method="get"></form>
+       <div>
+        <p>Número: <input type="number" name="txtn" id="n">
+        <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
+       </div>
+       <div>
+        <select name="Tabuada" id="seltab" size="10"> <!--Para não precisar cliclar para mostrar a lista, adiciono o atributo: 'size=""'-->
+            <option>Digite um número acima</option> <!--Para mostar a mensagem dentro da lista de opções-->
+        </select>
+       </div>
+    </section>
+
+    <footer>
+        <p>&copy; Cursoemvídeo</p>
+    </footer>
+
+    <script src="script.js"></script>   <!--macete para criar um arquivo em JavaScript separado-->
+    
+</body>
+</html>
